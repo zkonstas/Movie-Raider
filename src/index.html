@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Movie Raider</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<a class="navbar-brand">
+        			<img id="logo" src="images/movie-reel.jpg" class="img-responsive img-circle" alt="Responsive image">
+      			</a>
+    		</div>
+        <div class="navbar-header">
+<!--             <a class="navbar-brand" id="movieBrand" href="#"> -->
+              <h3 id="movieBrand">Movie Raider</h3>
+<!--             </a> -->
+        </div>
+
+        <div class="navbar-header navbar-left">
+          <button id="mostpop" type="submit" class="btn btn-danger pop">Most Popular</button>
+        </div>
+      		
+        <div class="navbar-form navbar-left">
+
+    <input id="search" type="text" class="form-control" placeholder="Movie Title" onkeypress="handle(event)">
+          <button id="searchButton" type="submit" class="btn btn-primary" onclick="searchMovies();">Search</button>
+        </div>
+        <div class="navbar-header navbar-right">
+           <button id="helpButton" type="submit" class="btn btn-default" data-toggle="modal" data-target="#helpModal">Help</button>
+        </div>
+        <div id="queue" class="container"> <p id="inQueue"><b>Your Movies</b></p>
+          <!-- <div class="qitem">
+          <button type="button" class="btn btn-danger btn-circle rem" aria-label="Left Align">
+            <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+          </button>
+            <img class="qimage" src="images/movie-reel.jpg" />
+            <div class="qtext">
+            title
+          </div>
+        </div> -->
+
+        </div>
+      </div>
+	 </nav>
+
+  <div class="container">
+    
+    <div class="row start">
+
+      <div class="col-lg-9">
+      </div>
+
+      <div class="col-lg-3">
+
+        <div class="chat-panel panel panel-default ratings ratings affix">
+          <div class="panel-heading">
+            Theaters
+          </div>
+          <!-- /.panel-heading -->
+          <div id="stresults" class="panel-body">
+            <div class="theaters-input">
+
+              <div class="form-group">
+                <div class="form-group">
+                  <label class="sr-only" for="date">Password</label>
+                  <input type="date" class="form-control input-sm" id="date" min="">
+                </div>
+
+                <div class="input-group">
+                  <label class="sr-only" for="zipcode">Zip Code</label>
+                  <input type="text" class="form-control input-sm" id="zip" placeholder="Zip code">
+                </div>
+              </div>
+              <button id="showtimesearch" class="btn btn-xs btn-primary" onclick="searchShowtimes();">Search</button>
+            </div>
+            <div class="showtimes">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- end row-->
+    </div>
+    <!-- end container-->
+  </div>
+
+  
+  <!-- start comments container -->
+  <div id="movies" class="container">
+
+  </div>
+  <!-- end container-->
+</div>
+
+<!-- Modal -->
+<div class = "queueModals">
+  <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Help</h4>
+      </div>
+      <div class="modal-body">
+        <p>Welcome to Movie Raider!
+        <br><br>
+        Planning for a movie night?<br>
+        Browse popular movies in theaters today on the home page, or find your own movies through the search bar.
+        Add movies to your selection and find showtimes at a theater near you. Simply enter the zipcode and the time under Theater, and find the theaters that best fit your selection. 
+        <br><br>
+        Filled with movie information!<br>
+        Besides the release date, runtime, MPA rating, and synopsis, we also have reviews! Click on the collapsible "Review" to view Rotten Tomatoes and New York Times reviews. Once you've added a movie to the queue, you can still view this information by clicking on its icon. 
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+<!-- App Logic -->    
+<script src="js/movies.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

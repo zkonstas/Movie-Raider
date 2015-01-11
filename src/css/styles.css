@@ -1,0 +1,233 @@
+
+#loadMore
+{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.qimage:hover {
+  cursor:pointer;
+  cursor:hand;
+}
+
+.qitem:hover {
+  cursor:pointer;
+  cursor:hand;
+}
+
+.navbar 
+{
+  background-color: #F8F8F8;
+}
+
+#logo{
+    width:35px;
+    height:35px;
+}
+
+#movieBrand {
+  margin-right: 10px;
+}
+
+.rem {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: none;
+}
+
+#clear {
+  position: absolute;
+  right: 10px;
+}
+
+.pop {
+  margin-top: 16px;
+}
+
+#search {
+  margin-top: 8px;
+}
+
+#searchButton {
+  margin-top: 8px;
+}
+
+#helpButton {
+  margin-top: 16px;
+}
+
+.start{
+  padding: 50px 15px;
+  text-align: left;
+}
+
+.col-lg-9 {
+  padding-left: 0px;
+}
+
+#inQueue {
+  color: #000000;
+  margin-top:-11px;
+  background-color: #F8F8F8;
+  width: 100px;
+  text-align: center;
+}
+
+#queue {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  background-color: #F8F8F8;
+  height: 180px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #EEEEEE; 
+  border-radius: 3px;
+  width:100%;
+}
+
+.qimage {
+  width: 80px;
+  height: 80px;
+}
+
+.qtext {
+  text-align: center;
+  font-size: 80%;
+  overflow: hidden;
+  height: 45px;
+}
+
+.movie {
+  width: 75%;
+}
+
+#movies {
+  margin-top: 170px;
+}
+
+.qitem {
+  background-color: white;
+  display: inline-block;
+  height: 128px;
+  position: relative;
+  top: 10px;
+  margin-left: 15px;
+  width: 80px;
+}
+
+.panel-horizontal .panel-heading {
+  float: left;
+  width: 19%;
+  padding-left: 15px;
+
+  border-right: 15px;
+  border-top-right-radius: 0;
+  margin-bottom: 0;
+}
+
+.panel-horizontal .panel-body {
+       float: right;
+       margin: 0 0 15px 0;
+       padding-bottom: 0;
+       width: 80%;
+       padding: 0;
+}
+
+.ratings {
+  margin-top: 15px;
+}
+
+.userId {
+    display: none;
+}
+
+#prototype, #rating_prototype {
+    display: none;
+}
+
+.nl {
+    visibility: hidden;
+}
+
+.chat-panel {
+  width:  300px;
+  height: 400px;
+  margin-top: 230px;
+  overflow: hidden;
+}
+
+.smovie {
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.showtime {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.theater {
+  padding: 5px;
+  border: 1px solid #F5F5F5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #F8F8F8;
+}
+
+#panelHeading {
+  font-size: 16px;
+
+}
+
+#movieTitle {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.theater b:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stresults {
+  margin-top: 8px;
+  overflow: auto;
+}
+
+#source {
+  font-weight: bold;
+}
+
+#art_image {
+  vertical-align: middle;
+}
+
+.results {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+.title_box { 
+    border: 2px solid #E5E5E5;*/; 
+}
+
+a:visited {
+    color: #800080;
+}
+
+.title_box #title { 
+    position: relative; 
+    top : -0.5em;
+    margin-left: 1em;
+    display: inline; 
+    background-color: white; 
+}
+
+.title_box #content {
+  margin-left: 1em;
+}
