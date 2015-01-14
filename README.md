@@ -13,6 +13,11 @@ application shows you all theaters matching these criteria.
 ## Demo
 A screencast of a demo of the application can be viewed [here](https://www.youtube.com/watch?v=3iBsiYyM8Qc).
 
+## Mockup
+The following mockup was developed with Balsamiq and was used as a starting point for the application development.
+![mockup](mockups/balsamiq-mockup.jpg)
+
+
 ## Overview
 This application was developed as the final group project for the class COMS4170 in the Fall 2014 at Columbia University. The following members also contributed to the project:
 - Aiden Yang
