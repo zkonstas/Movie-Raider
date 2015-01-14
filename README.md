@@ -1,7 +1,14 @@
 # Movie-Raider
 
 ## Description
-Movie Raider enables you to find information about movies and helps you plan a cinema day by showing you all theaters playing the movies you are interested in. Movie background, ratings and reviews are provided by the New York Times and Rotten Tomatoes APIs. You can browse most popular movies currently in theaters, search for a particular title and pick one or more movies you are interested in to add them to your selection. Based on the selected movies and your location and date preference our application shows you all theaters matching these criteria.
+Movie Raider enables you to find information about movies and helps you plan a cinema day by showing you all theaters playing the movies you are interested in. Movie background, ratings and reviews are provided by the New York Times and Rotten Tomatoes APIs. You can browse most popular movies currently in theaters, search for a particular title and pick one or more movies you are interested in to add them to your selection. Based on the selected movies and your location and date preference our 
+application shows you all theaters matching these criteria.
+
+## Screenshots
+![landing-page](screenshots/popular-movies.png)
+![movie-modal](screenshots/movie-modal.png)
+![movie-modal-reviews](screenshots/movie-modal-reviews.png)
+![help-modal](screenshots/help-modal.png)
 
 ## Demo
 A screencast of a demo of the application can be viewed [here](https://www.youtube.com/watch?v=3iBsiYyM8Qc).
